@@ -1,0 +1,260 @@
+.root {
+    -fx-font-family: "Segoe UI", "Arial";
+    -fx-font-size: 13px;
+    -fx-background-color: #f1f5f9;
+    -fx-text-fill: #1e293b;
+}
+
+/* Заголовки */
+
+.label {
+    -fx-text-fill: #334155;
+}
+
+.header {
+    -fx-background-color: #172b4d;
+    -fx-padding: 20px;
+}
+
+.header .label {
+    -fx-text-fill: white;
+}
+
+.app-title {
+    -fx-font-size: 21px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+.app-subtitle {
+    -fx-font-size: 12px;
+    -fx-text-fill: #c4d4eb;
+}
+
+/* Панель інструментів */
+
+.toolbar {
+    -fx-background-color: white;
+    -fx-padding: 14px;
+    -fx-spacing: 10px;
+    -fx-alignment: center-left;
+    -fx-border-color: #e2e8f0;
+    -fx-border-width: 0 0 1 0;
+}
+
+/* Кнопки */
+
+.button {
+    -fx-background-color: #e2e8f0;
+    -fx-text-fill: #334155;
+    -fx-background-radius: 8px;
+    -fx-padding: 10px 16px;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #cbd5e1;
+}
+
+.button:pressed {
+    -fx-opacity: 0.8;
+}
+
+.button:disabled {
+    -fx-opacity: 0.45;
+}
+
+.btn-primary {
+    -fx-background-color: #2563eb;
+    -fx-text-fill: white;
+}
+
+.btn-primary:hover {
+    -fx-background-color: #1d4ed8;
+}
+
+.btn-success {
+    -fx-background-color: #16a34a;
+    -fx-text-fill: white;
+}
+
+.btn-success:hover {
+    -fx-background-color: #15803d;
+}
+
+.btn-danger {
+    -fx-background-color: #dc2626;
+    -fx-text-fill: white;
+}
+
+.btn-danger:hover {
+    -fx-background-color: #b91c1c;
+}
+
+.btn-purple {
+    -fx-background-color: #7c3aed;
+    -fx-text-fill: white;
+}
+
+.btn-purple:hover {
+    -fx-background-color: #6d28d9;
+}
+
+.btn-import {
+    -fx-background-color: #0891b2;
+    -fx-text-fill: white;
+}
+
+.btn-import:hover {
+    -fx-background-color: #0e7490;
+}
+
+/* Вкладки */
+
+.tab-pane {
+    -fx-background-color: #f1f5f9;
+    -fx-tab-min-height: 38px;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-background-color: #e2e8f0;
+}
+
+.tab {
+    -fx-background-color: transparent;
+    -fx-background-radius: 8px 8px 0 0;
+    -fx-padding: 7px 16px;
+}
+
+.tab:selected {
+    -fx-background-color: white;
+}
+
+.tab .tab-label {
+    -fx-text-fill: #64748b;
+    -fx-font-weight: bold;
+}
+
+.tab:selected .tab-label {
+    -fx-text-fill: #2563eb;
+}
+
+/* Таблиці */
+
+.table-view {
+    -fx-background-color: white;
+    -fx-background-radius: 10px;
+    -fx-border-color: #e2e8f0;
+    -fx-border-radius: 10px;
+    -fx-padding: 4px;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #eaf0f8;
+}
+
+.table-view .column-header {
+    -fx-background-color: transparent;
+    -fx-padding: 12px 6px;
+}
+
+.table-view .column-header .label {
+    -fx-text-fill: #334155;
+    -fx-font-weight: bold;
+}
+
+.table-row-cell {
+    -fx-background-color: white;
+    -fx-cell-size: 43px;
+}
+
+.table-row-cell:odd {
+    -fx-background-color: #f8fafc;
+}
+
+.table-row-cell:hover {
+    -fx-background-color: #dbeafe;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #bfdbfe;
+}
+
+.table-row-cell:selected .text {
+    -fx-fill: #1e3a8a;
+}
+
+.table-cell {
+    -fx-alignment: center-left;
+    -fx-padding: 6px 10px;
+    -fx-border-color: transparent;
+}
+
+/* Поля введення */
+
+.text-field,
+.text-area,
+.combo-box {
+    -fx-background-color: white;
+    -fx-border-color: #cbd5e1;
+    -fx-border-radius: 7px;
+    -fx-background-radius: 7px;
+    -fx-padding: 7px;
+}
+
+.text-field:focused,
+.text-area:focused,
+.combo-box:focused {
+    -fx-border-color: #2563eb;
+    -fx-border-width: 2px;
+}
+
+/* Вікна діалогу */
+
+.dialog-pane {
+    -fx-background-color: #f8fafc;
+}
+
+.dialog-pane .header-panel {
+    -fx-background-color: #eaf0f8;
+}
+
+.dialog-pane .header-panel .label {
+    -fx-font-weight: bold;
+    -fx-text-fill: #172b4d;
+}
+
+/* Прогрес CSV */
+
+.progress-bar {
+    -fx-accent: #16a34a;
+}
+
+.progress-bar .track {
+    -fx-background-color: #e2e8f0;
+    -fx-background-radius: 8px;
+}
+
+.progress-bar .bar {
+    -fx-background-color: #16a34a;
+    -fx-background-radius: 8px;
+}
+
+.progress-indicator {
+    -fx-progress-color: #2563eb;
+}
+
+/* Статус */
+
+.status-label {
+    -fx-text-fill: #64748b;
+    -fx-font-size: 12px;
+}
+
+.import-panel {
+    -fx-background-color: white;
+    -fx-padding: 10px 14px;
+    -fx-spacing: 12px;
+    -fx-alignment: center-left;
+}

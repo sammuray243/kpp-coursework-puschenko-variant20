@@ -1,0 +1,47 @@
+
+# ==========================================
+# CLIENT .gitignore
+# JavaFX / Maven / CSV
+# ==========================================
+
+# Maven output
+target/
+dependency-reduced-pom.xml
+
+# Java compiled files
+*.class
+*.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# JavaFX runtime
+*.log
+hs_err_pid*
+replay_pid*
+
+# Local settings
+.env
+.env.*
+!.env.example
+application-local.properties
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Generated CSV files
+csv/output/
+csv/results/
+csv/generated/
+
+# Keep CSV test examples
+!csv/*.csv
+
+# Keep source and resources
+!src/
+!pom.xml

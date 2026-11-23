@@ -1,0 +1,61 @@
+
+# ==========================================
+# ROOT .gitignore
+# Coursework - Variant 20
+# ==========================================
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# Maven build
+target/
+**/target/
+
+# Java
+*.class
+*.log
+hs_err_pid*
+replay_pid*
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+application-local.properties
+db-local.properties
+secrets.properties
+
+# Local database dumps
+*.sql.bak
+
+# Runtime
+logs/
+*.pid
+
+# Maven wrapper
+!.mvn/wrapper/maven-wrapper.jar
